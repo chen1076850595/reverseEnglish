@@ -6,11 +6,29 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="reverseEnglish" />
+        <module name="reverse-English-dao" />
+        <module name="reverse-English-domain" />
+        <module name="reverse-English-manager" />
+        <module name="reverse-English-service" />
+        <module name="reverse-English-web" />
+        <module name="reverseEnglishweb" />
+      </profile>
+      <profile name="Annotation profile for reverseEnglishdao" enabled="true">
+        <sourceOutputDir name="../reverseEnglishdao/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../reverseEnglishdao/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="reverseEnglishdao" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="reverse-English-dao" target="1.5" />
+      <module name="reverse-English-domain" target="1.5" />
+      <module name="reverse-English-manager" target="1.5" />
+      <module name="reverse-English-service" target="1.5" />
+      <module name="reverse-English-web" target="1.5" />
       <module name="reverseEnglish" target="1.5" />
+      <module name="reverseEnglishdao" target="1.5" />
+      <module name="reverseEnglishweb" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -6,6 +6,16 @@
 
     <groupId>com.reverse.website</groupId>
     <artifactId>reverse-English</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+
+
+    <modules>
+        <module>reverse-English-web</module>
+        <module>reverse-English-dao</module>
+        <module>reverse-English-service</module>
+        <module>reverse-English-domain</module>
+        <module>reverse-English-manager</module>
+    </modules>
 
 </project>

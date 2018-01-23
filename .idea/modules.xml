@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/reverse-English-dao/reverse-English-dao.iml" filepath="$PROJECT_DIR$/reverse-English-dao/reverse-English-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/reverse-English-domain/reverse-English-domain.iml" filepath="$PROJECT_DIR$/reverse-English-domain/reverse-English-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/reverse-English-manager/reverse-English-manager.iml" filepath="$PROJECT_DIR$/reverse-English-manager/reverse-English-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/reverse-English-service/reverse-English-service.iml" filepath="$PROJECT_DIR$/reverse-English-service/reverse-English-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/reverse-English-web/reverse-English-web.iml" filepath="$PROJECT_DIR$/reverse-English-web/reverse-English-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/reverseEnglish.iml" filepath="$PROJECT_DIR$/reverseEnglish.iml" />
     </modules>
   </component>
